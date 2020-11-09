@@ -1,13 +1,8 @@
 {
-	"folders": [{
-			"path": "."
-		},
-		{
-			"path": "/Users/martintjellesen/OneDrive - Danmarks Tekniske Universitet/DTU/7. Semester/Feasibility studies/LivingLean/html5up-spectral/images"
-		},
-		{
-			"path": "/Users/martintjellesen/OneDrive - Danmarks Tekniske Universitet/DTU/7. Semester/Feasibility studies/LivingLean/html5up-spectral/assets"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {}
 }
