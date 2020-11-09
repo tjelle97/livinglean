@@ -10,11 +10,11 @@ def home():
     return render_template("pages/index.html")
 
 
-@app.route('/elements')
+@app.route('/elements.html')
 def elements():
     return render_template('pages/elements.html')
 
 
-@app.route('/generic')
+@app.route('/generic.html')
 def generic():
     return render_template('pages/generic.html')
