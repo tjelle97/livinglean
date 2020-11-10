@@ -5,21 +5,21 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/", methods=['GET', 'POST'])
 def home():
     return render_template("pages/index.html")
 
 
-@app.route('/elements.html')
+@app.route('/elements.html', methods=['GET', 'POST'])
 def elements():
     return render_template('pages/elements.html')
 
 
-@app.route('/generic.html')
+@app.route('/generic.html', methods=['GET', 'POST'])
 def generic():
     return render_template('pages/generic.html')
 
 
-@app.route("/index.html")
+@app.route("/index.html", methods=['GET', 'POST'])
 def index():
     return render_template("pages/index.html")
